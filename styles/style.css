@@ -79,3 +79,13 @@ nav a {
     padding:100px 0;
     background:linear-gradient(180deg, #301dfd, #b2bbff, #301dfd);
 }
+/* 3-1. 앱 디자인 */
+.project .app {display:flex;}
+.project .app .thum {}
+.project .app .thum img {width:100%;}
+.project .app .app_info {}
+/* 3-2. 웹 디자인 */
+.project .web {position:relative;}
+.project .web .swiper {max-width:1000px;}
+.project .web .swiper-slide {display:flex;}
+.project .web div[class^=swiper-button] {color:#FFF;}
